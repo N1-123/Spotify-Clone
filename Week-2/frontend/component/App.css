@@ -1,0 +1,41 @@
+.dashboard {
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form input, .filters input {
+  margin: 5px;
+  padding: 10px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.music-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.music-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: left;
+}
